@@ -67,12 +67,47 @@ git clone [repository-url]
 └── Practice Session.ipynb
 ```
 
-## 🤝 Katkıda Bulunma
+# Pima Indians Diabetes Analizi
 
-1. Bu repository'yi fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+Bu proje, Pima Indians Diabetes veri seti üzerinde temel veri analizi, görselleştirme ve korelasyon incelemeleri içermektedir.
+
+## 🔍 Amaç
+
+- Veriyi tanımak
+- Eksik ve anlamlı olmayan sütunları tespit etmek
+- Görsel analizlerle dağılımları ve ilişkileri incelemek
+
+## 📁 Kullanılan Kütüphaneler
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+
+## 📊 Uygulanan Adımlar
+
+1. **Veri Yükleme:** `pima-indians-diabetes-database.csv`
+2. **Dağılım Grafikleri:** Her sütunun dağılımını incelemek için `plotPerColumnDistribution()`
+3. **Korelasyon Matrisi:** Değişkenler arası ilişkiyi görmek için `plotCorrelationMatrix()`
+4. **Scatter Matrix:** Sayısal değişkenler arası dağılım grafikleri
+
+## 🛠️ Fonksiyonlar
+
+- `plotPerColumnDistribution(df, n, perRow)`
+- `plotCorrelationMatrix(df, width)`
+- `plotScatterMatrix(df, size, textSize)`
+
+## 📌 Notlar
+
+- Eksik değerler otomatik olarak tespit edilip analiz dışında bırakılır.
+- Sadece sayısal veriler görselleştirmeye dahil edilir.
+
+## 📚 Veri Seti
+
+Veri seti: [Kaggle - Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+
+---
+
+Bu proje temel veri analizi ve görselleştirme uygulamaları içeren bir başlangıç çalışmasıdır.
 
 
