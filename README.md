@@ -27,46 +27,6 @@ Bu proje, ABD'deki makine öğrenmesi iş ilanlarının analizini ve kümeleme i
 ### 3. Uygulama Oturumu
 **Dosya:** `Practice Session.ipynb`
 
-Bu dosya, çeşitli veri bilimi ve makine öğrenmesi kavramlarının uygulamalı olarak gösterildiği bir çalışma oturumunu içermektedir.
-
-## 🛠️ Kullanılan Teknolojiler
-
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- NLTK (Doğal Dil İşleme için)
-
-## 📋 Gereksinimler
-
-Projeleri çalıştırmak için aşağıdaki Python kütüphanelerinin yüklü olması gerekmektedir:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn nltk jupyter
-```
-
-## 🚀 Başlangıç
-
-1. Repository'yi klonlayın:
-```bash
-git clone [repository-url]
-```
-
-2. Gerekli kütüphaneleri yükleyin
-3. Jupyter Notebook'ları açın ve çalıştırın
-
-## 📊 Proje Yapısı
-
-```
-.
-├── mental-healts.ipynb
-├── Clustering_ML_Jobs_in_the_US_withTF_IDF_and_KMeans.ipynb
-└── Practice Session.ipynb
-```
-
 # Pima Indians Diabetes Analizi
 
 Bu proje, Pima Indians Diabetes veri seti üzerinde temel veri analizi, görselleştirme ve korelasyon incelemeleri içermektedir.
@@ -109,5 +69,48 @@ Veri seti: [Kaggle - Pima Indians Diabetes Database](https://www.kaggle.com/data
 ---
 
 Bu proje temel veri analizi ve görselleştirme uygulamaları içeren bir başlangıç çalışmasıdır.
+
+
+Bu dosya, çeşitli veri bilimi ve makine öğrenmesi kavramlarının uygulamalı olarak gösterildiği bir çalışma oturumunu içermektedir.
+
+## 🛠️ Kullanılan Teknolojiler
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- NLTK (Doğal Dil İşleme için)
+
+## 📋 Gereksinimler
+
+Projeleri çalıştırmak için aşağıdaki Python kütüphanelerinin yüklü olması gerekmektedir:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn nltk jupyter
+```
+
+## 🚀 Başlangıç
+
+1. Repository'yi klonlayın:
+```bash
+git clone [repository-url]
+```
+
+2. Gerekli kütüphaneleri yükleyin
+3. Jupyter Notebook'ları açın ve çalıştırın
+
+## 📊 Proje Yapısı
+
+```
+.
+├── mental-healts.ipynb
+├── Clustering_ML_Jobs_in_the_US_withTF_IDF_and_KMeans.ipynb
+└── Practice Session.ipynb
+   Pima Indians Diabetes Analizi
+```
+
 
 
